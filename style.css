@@ -1,0 +1,100 @@
+body {
+	background-color: rgb(255,232,238);
+	color: #463333;
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;
+}
+
+h1 {
+	color: #463333; 
+	font-family: 'optima', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: underline;
+	letter-spacing: 10px
+
+}
+
+h2 {color: #835858;
+	font-family: 'Cookie', cursive;
+	letter-spacing: 20px
+	font-weight: bold;
+	text-decoration: underline;
+	font-style: italic;
+}
+	
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;}
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px; }
+}
+
+
+.img-circle {
+	border-radius: 50%;
+	width: 150px;
+
+}
+
+.card-pink {
+	background: rgb(228,192,197);
+	padding: 60px;
+	margin: 50px;
+	box-shadow: 0px 10px 30px black;
+	border-radius: 5px;
+	text-align: center;
+
+}
+
+}
+.list-box {
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-color {
+	background: rgb(252,232,238);
+	font-size: 14px;
+	border-radius: 5px;
+	margin: 10px;
+
+}
+
+.list-box li {
+	display: inline-block;
+	padding: 30px
+
+}
+
+.list-inlign {
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-inlign li {
+	display: inline;
+	padding: 30px;
+
+}
+
+.list-inlign i {
+	font-size: 40px;
+	color: rgb(255,232,238);
+
+}
+
+.list-inlign i:hover {
+	color: #463333;
+
+}
